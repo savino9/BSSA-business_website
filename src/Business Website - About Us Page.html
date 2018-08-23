@@ -14,7 +14,7 @@
       });
       </script>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script>
       $(document).ready(function(){
           $("#flip2").click(function(){
@@ -39,7 +39,7 @@
               $("#panel4").slideToggle("slow");
           });
       });
-      </script>
+      </script> -->
 
 
 
@@ -73,12 +73,18 @@ h1   {
 }
 
 ol    {
+          font-family: helvetica, sans-serif;
+          font-size: 20px;
           list-style: none;
+          text-align: center;
           margin: 0;
           padding: 0;
 }
 
-li    {   text-align: center;
+li    {
+          font-family: helvetica, sans-serif;
+          font-size: 20px;
+          text-align: center;
 
 }
 
@@ -202,45 +208,37 @@ body {
 
     <body>
 
-<div id="flip">Click here to find out more about <strong>Foot Traffic.</strong></div>
+      <div id="flip">
 
-<div id="panel">
+        <p><Strong>FOOT TRAFFIC</strong><p>
 
-    <h1>Who are we?</h1>
-    <p>We are <strong>Foot Traffic</strong>, a company founded in 2010 by three passionate young men, who shared a common love for stylish footware.<br>
-        Realising that the shoes they wanted and admired were simply unaffordable, and that no other company offered the service that they were looking for,
-        they took it upon themselves to find a solution.<br>
-        <strong>Foot Traffic</strong> was born as a result, and has continued to grow ever since.</p><br><br>
-</div><br>
+        <p>We are <strong>Foot Traffic</strong>, a company founded in 2010 by three passionate young men, who shared a common love for stylish footware.
+          Realising that the shoes they wanted and admired were simply unaffordable, and that no other company offered the service that they were looking for,
+          they took it upon themselves to find a solution. <strong>Foot Traffic</strong> was born as a result, and has continued to grow ever since.
+          <br><br>
+          <strong>Click to find out more</strong></p></div>
 
-<div id="flip2">Why <strong>Foot Traffic?</strong></div>
+      <div id="panel">
 
-<div id="panel2">
+          <h1>Why <strong>Foot Traffic?</strong></h1>
+          <p>We aim to achieve a very large customer base who will want to experience our amazing products and excellent customer service,
+            whether it be by visiting us online or coming to one of our stores,
+            to look, to buy and to wear our shoes, hence <strong>"Foot Traffic"</strong><p>
 
-    <p>We aim to achieve a very large customer base who will want to experience our amazing products and excellent customer service,
-      whether it be by visiting us online or coming to one of our stores,
-      to look, to buy and to wear our shoes, hence <strong>"Foot Traffic"</strong><p><br>
-</div><br>
+          <h1>Why Choose Us?</h1>
+          <p><strong>Foot Traffic</strong> offers something that other companies fail to do: putting luxury products in the hands of everyone.<br>
+             We do this by offering premium products at affordable prices.</p>
 
-<div id="flip3">Why Choose Us?</div>
+      </div><br>
 
-<div id="panel3">
+        <h1>OUR FEATURED SHOES</h1><br>
 
-    <p><strong>Foot Traffic</strong> offers something that other companies fail to do: putting luxury products in the hands of everyone.<br>
-       We do this by offering premium products at affordable prices.</p><br><br>
-
-</div><br>
-
-<div id="flip4">Our Shoes</div>
-
-<div id="panel4">
-
-    <ol>We offer shoes from a wide range of popular culture, such as you favourite musicians, rappers and Hollywood actors.<br>
-      Our featured products right now are:<br><br>
-      <li>Eminem Jordan Black</li>
-      <li>....................</li>
-      <li>Nike Air Mags (Back to the Future Self Lacing Shoes)</li>
-    </ol><br><br>
+          <ol>We offer shoes from a wide range of popular culture, such as you favourite musicians, rappers and Hollywood actors.<br><br>
+            Our featured products right now are:<br><br>
+            <li>Eminem Jordan Black</li>
+            <li>....................</li>
+            <li>Nike Air Mags (Back to the Future Self Lacing Shoes)</li>
+          </ol><br><br>
 
 </div>
 
@@ -252,30 +250,66 @@ body {
         box-sizing: border-box;
     }
 
+    .row {
+        display: flex;
+    }
+
     .column {
         float: left;
         width: 33.33%;
         padding: 5px;
     }
-.row::after {
+/* .row::after {
     content: "";
     clear: both;
     display: table;
-}
+} */
 </style>
 
     <div class="row">
       <div class="column">
-        <img id="myImg1" src="fake-nike-mags-power-lacing-0.jpg" alt="Back to the Future" style="width:100%";>
+        <img id="myImg1" src="fake-nike-mags-power-lacing-0.jpg" alt="Back to the Future" style="width:100%"height="300px">
       </div>
       <div class="column">
-        <img id="myImg2" src="yeezy-ii-red-october.jpg" alt="Yeezy II Red October" style="width:100%">
+        <img id="myImg2" src="yeezy-ii-red-october_hq.jpg" alt="Yeezy II Red October" style="width:100%" height="300px">
       </div>
       <div class="column">
-        <img id="myImg3" src="nike-air-force.jpg" alt="Nike Air Force" style="width:100%">
+        <img id="myImg3" src="Air_Jordan_4_Retro_Carhartt_X_Eminem.jpg" alt="Air Jordan 4 Retro 'Carhartt X Eminem'" style="width:100%" height="300px">
       </div>
     </div>
 
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+</style>
+
+    <div class="row">
+      <div class="column">
+        <img id="myImg4" src="Kendrick_Lamar_Kung_Fu_Kenny_Nike_Cortez.jpg" alt="Kendrick Lamar 'Kung Fu Kenny' Nike Cortez" style="width:100%"height="300px">
+      </div>
+      <div class="column">
+        <img id="myImg5" src="The_Adidas_x_Run–DMC_25th_Anniversary_Superstar.jpg" alt="The Adidas x Run–DMC 25th Anniversary Superstar" style="width:100%" height="300px">
+      </div>
+      <div class="column">
+        <img id="myImg6" src="Nike_Air_Jordan_I.jpg" alt="Nike Air Jordan I" style="width:100%" height="300px">
+      </div>
+    </div>
 
 
 
@@ -320,6 +354,32 @@ body {
         captionText.innerHTML = this.alt;
     }
 
+    var img = document.getElementById('myImg4');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var img = document.getElementById('myImg5');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var img = document.getElementById('myImg6');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -329,22 +389,6 @@ body {
         modal.style.display = "none";
     }
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </body>
   </html>
