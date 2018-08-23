@@ -27,18 +27,21 @@ gulp.task('scripts', function() {
 });
 
 // Static server 
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve',  function() {
 	browserSync.init({
 		server: "./src",
 		watch: true
 	});			
-	gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
-	gulp.watch("/src/*.html").on('change', browserSync.reload);
+});
+
+gulp.task('watch', function() {
+  gulp.watch('src/css/*.css');
+  gulp.watch('src/js/*.js');
+  gulp.watch('src/*.html').on('change', browserSync.reload);
+  // gulp.watch('src/img/*', gulp.series('images'));
 });
 
 gulp.task('default',
-    gulp.series(['sass', 'scripts', 'serve'])
+  gulp.series('serve', gulp.parallel('watch', 'sass'))
 );
 
-// const defaultTasks = gulp.parallel(serve, watch)
-// export default defaultTasks
