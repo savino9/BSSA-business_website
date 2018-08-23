@@ -36,4 +36,9 @@ gulp.task('serve', ['sass'], function() {
 	gulp.watch("/src/*.html").on('change', browserSync.reload);
 });
 
-gulp.task('default', ['sass', 'scripts', 'serve']);
+gulp.task('default',
+    gulp.series(['sass', 'scripts', 'serve'])
+);
+
+// const defaultTasks = gulp.parallel(serve, watch)
+// export default defaultTasks

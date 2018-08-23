@@ -5,19 +5,20 @@
   "main": "gulpfile.js",
   "dependencies": {
     "bootstrap": "^4.1.3",
-    "browser-sync": "^2.24.6",
-    "gulp": "^4.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.1",
     "jquery": "^3.3.1",
     "jshint": "^2.9.6",
     "lodash": "^4.17.10",
     "node": "^10.8.0",
     "popper.js": "^1.14.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,7 +27,7 @@
     "url": "git+https://github.com/savino9/BSSA-business_website.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/savino9/BSSA-business_website/issues"
   },
