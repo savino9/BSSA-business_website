@@ -105,3 +105,9 @@
 	.jumbotron {
 		border-radius: 0px;
 	}
+  /*top: 220px;
+  z-index: 1; }*/
+
+.carousel img {
+  max-height: 600px; }
+
