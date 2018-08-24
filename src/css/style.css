@@ -7,12 +7,12 @@
   left: 35%;  }
 
  .jumbotron {
- 	background-image: url(/img/stoplight.png);
+ 	background-image: url('../img/stoplight.png');
 	background-size: cover; 	
  }
 
 .carousel img {
-  max-height: 600px; }
+  max-height: 650px; }
 
 .myBtn-primary {
   width: 200px;
@@ -32,7 +32,7 @@
 } 
 
 .bg-footer {
-	background-image: url(/img/footer1.jpg);
+	background-image: url(../img/footer1.jpg);
 	background-size: cover;
 }
 
