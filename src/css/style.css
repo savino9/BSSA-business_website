@@ -1,2 +1,40 @@
-body {
-  background: red; }
+.main-slogan {
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  padding: 0%;
+  min-width: 200px;
+  left: 35%;  }
+
+ .jumbotron {
+ 	background-image: url(/img/stoplight.png);
+	background-size: cover; 	
+ }
+
+.carousel img {
+  max-height: 600px; }
+
+.bg-footer {
+	background-image: url(/img/footer1.jpg);
+	background-size: cover;
+}
+/*Iphone Device*/
+@media only screen and (max-width: 400px) and (min-width: 200px)  {
+	.main-slogan {
+		position: relative;
+		width: 100%;
+		left: 0%;
+	}
+	.jumbotron {
+		border-radius: 0px;
+	}
+}
+/*Ipad Device*/
+@media only screen and (max-width: 800px) and (min-width: 400px)  {
+	.main-slogan {
+		top: 8%;
+		left: 25%;
+	}
+	.jumbotron {
+		border-radius: 0px;
+	}
