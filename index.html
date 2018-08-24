@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
 
     <title>Cover Template for Business website</title>
 
@@ -19,16 +19,25 @@
 
   <body class="text-center">
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <video autoplay muted loop id="video">
+      <source src="src/img/pexel-video.mp4" type="video/mp4">
+    </video>
 
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">FOOT TRAFFIC</h1>
-        <p class="lead">We sell the best shoes ever, probably you can't afford it.</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-        </p>
-      </main>
+    <!-- Optional: some overlay text to describe the video -->
 
+    <div class="cover-container d-flex flex-column">
+      <h1 class="cover-heading">FOOT TRAFFIC</h1>
+      <p class="lead">We sell the best shoes ever, probably you can't afford it.</p>
+      <p class="lead">
+        <a href="./src/index.html"><button class="myBtn-primary">Learn More</button></a>
+      </p>
+    </div>
+
+    <div class="content">
+      <p>Stop the video if you want...</p>
+      <!-- Use a button to pause/play the video with JavaScript -->
+      <button id="myBtn" class="myBtn">Pause</button>
+      <hr>
       <footer class="mastfoot mt-auto">
         <div class="inner">
           <p>Cover template for <a href="https://getbootstrap.com/">Business website</a>, by <a href="https://twitter.com/mdo">savino9</a>.</p>
@@ -36,12 +45,12 @@
       </footer>
     </div>
 
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="src/js/main.js"></script>
   </body>
 </html>
