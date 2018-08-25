@@ -18,7 +18,8 @@
     "gulp-uglify": "^3.0.1",
     "jshint": "^2.9.6",
     "lodash": "^4.17.10",
-    "popper.js": "^1.14.4"
+    "popper.js": "^1.14.4",
+    "swiper": "^4.3.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
