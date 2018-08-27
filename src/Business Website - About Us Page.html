@@ -4,7 +4,10 @@
   <html>
     <head>
       <title>"Foot Traffic Home Page"</title>
+      <!-- <link rel="stylesheet" href="Business Website - About Us (css file).css"> -->
 
+
+<!-- // This script controls the sliding panel at the top of the page. -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script>
       $(document).ready(function(){
@@ -13,33 +16,6 @@
           });
       });
       </script>
-
-      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script>
-      $(document).ready(function(){
-          $("#flip2").click(function(){
-              $("#panel2").slideToggle("slow");
-          });
-      });
-      </script>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script>
-      $(document).ready(function(){
-          $("#flip3").click(function(){
-              $("#panel3").slideToggle("slow");
-          });
-      });
-      </script>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script>
-      $(document).ready(function(){
-          $("#flip4").click(function(){
-              $("#panel4").slideToggle("slow");
-          });
-      });
-      </script> -->
 
           <style>
 
@@ -95,96 +71,6 @@ body {
  }
 
           </style>
-<!--
-          <style>
-
-          #myImg {
-              border-radius: 5px;
-              cursor: pointer;
-              transition: 0.3s;
-          }
-
-          #myImg:hover {opacity: 0.7;}
-
-          /* The Modal (background) */
-          .modal {
-              display: none; /* Hidden by default */
-              position: fixed; /* Stay in place */
-              z-index: 1; /* Sit on top */
-              padding-top: 100px; /* Location of the box */
-              left: 0;
-              top: 0;
-              width: 100%; /* Full width */
-              height: 100%; /* Full height */
-              overflow: auto; /* Enable scroll if needed */
-              background-color: rgb(0,0,0); /* Fallback color */
-              background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-          }
-
-          /* Modal Content (image) */
-          .modal-content {
-              margin: auto;
-              display: block;
-              width: 80%;
-              max-width: 700px;
-          }
-
-          /* Caption of Modal Image */
-          #caption {
-              margin: auto;
-              display: block;
-              width: 80%;
-              max-width: 700px;
-              text-align: center;
-              color: #ccc;
-              padding: 10px 0;
-              height: 150px;
-          }
-
-          /* Add Animation */
-          .modal-content, #caption {
-              -webkit-animation-name: zoom;
-              -webkit-animation-duration: 0.6s;
-              animation-name: zoom;
-              animation-duration: 0.6s;
-          }
-
-          @-webkit-keyframes zoom {
-              from {-webkit-transform:scale(0)}
-              to {-webkit-transform:scale(1)}
-          }
-
-          @keyframes zoom {
-              from {transform:scale(0)}
-              to {transform:scale(1)}
-          }
-
-          /* The Close Button */
-          .close {
-              position: absolute;
-              top: 15px;
-              right: 35px;
-              color: #f1f1f1;
-              font-size: 40px;
-              font-weight: bold;
-              transition: 0.3s;
-          }
-
-          .close:hover,
-          .close:focus {
-              color: #bbb;
-              text-decoration: none;
-              cursor: pointer;
-          }
-
-          /* 100% Image Width on Smaller Screens */
-          @media only screen and (max-width: 700px){
-              .modal-content {
-                  width: 100%;
-              }
-          }
-          </style> */ -->
-
 
     </head>
 
@@ -260,11 +146,6 @@ body {
   display: table;
   clear: both;
 }
-
-/* .column {
-  float: left;
-  width: 25%;
-} */
 
 /* The Modal (background) */
 .modal {
@@ -404,15 +285,15 @@ img.hover-shadow {
     <img id="myImg4" src="Kendrick_Lamar_Kung_Fu_Kenny_Nike_Cortez.jpg" alt="Kendrick Lamar 'Kung Fu Kenny' Nike Cortez" style="width:100%" height="250px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img id="myImg5" src="The_Adidas_x_Run–DMC_25th_Anniversary_Superstar.jpg" alt="The Adidas x Run–DMC 25th Anniversary Superstar" style="width:100%" height="250px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img id="myImg5" src="The_Adidas_x_Run–DMC_25th_Anniversary_Superstar.jpg" alt="The Adidas x Run–DMC 25th Anniversary Superstar" style="width:100%" height="250px" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img id="myImg6" src="Nike_Air_Jordan_I.jpg" alt="Nike Air Jordan I" style="width:100%" height="250px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img id="myImg6" src="Nike_Air_Jordan_I.jpg" alt="Nike Air Jordan I" style="width:100%" height="250px" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
   </div>
 </div>
 
 <!-- <br><br>
-<h1>Hello World!</h1> -->
+<h1>To add text below the photos type here!</h1> -->
 
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
@@ -455,45 +336,34 @@ img.hover-shadow {
       <p id="caption"></p>
     </div>
 
-    <!-- <style>
-
-    .col-container {
-      display: flex;
-      width: 100%;
-    }
-    .col {
-      flex: 1;
-      padding: 16px;
-    }
-
-    </style> -->
-
 <div class="row">
     <div class="column">
       <img class="demo cursor" src="fake-nike-mags-power-lacing-0.jpg" style="width:100%" height="100px" onclick="currentSlide(1)" alt="Nike Air Mags Power Lacing">
     </div>
+
     <div class="column">
       <img class="demo cursor" src="yeezy-ii-red-october_hq.jpg" style="width:100%" height="100px" onclick="currentSlide(2)" alt="Yeezy II Red October">
     </div>
+
     <div class="column">
       <img class="demo cursor" src="Air_Jordan_4_Retro_Carhartt_X_Eminem.jpg" style="width:100%" height="100px" onclick="currentSlide(3)" alt="Air Jordan 4 Retro 'Carhartt X Eminem'">
     </div>
+
     <div class="column">
       <img class="demo cursor" src="Kendrick_Lamar_Kung_Fu_Kenny_Nike_Cortez.jpg" style="width:100%" height="100px" onclick="currentSlide(4)" alt="Kendrick Lamar 'Kung Fu Kenny' Nike Cortez">
     </div>
+
     <div class="column">
       <img class="demo cursor" src="The_Adidas_x_Run–DMC_25th_Anniversary_Superstar.jpg" style="width:100%" height="100px" onclick="currentSlide(5)" alt="The Adidas x Run–DMC 25th Anniversary Superstar">
     </div>
+
     <div class="column">
       <img class="demo cursor" src="Nike_Air_Jordan_I.jpg" style="width:100%" height="100px" onclick="currentSlide(6)" alt="Nike Air Jordan I">
     </div>
   </div>
 
-  <!-- <div id="body">
-        <br><br><br>
-        <p>test code</p>
 
-  </div> -->
+<!-- This script controls makes it possible to click the photos and go through a gallery / lightbox -->
 
 <script>
 function openModal() {
