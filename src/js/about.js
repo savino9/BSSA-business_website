@@ -4,8 +4,6 @@ $(document).ready(function(){
     });
 });
 
-// $(document).ready(function(){
-// //   // alert('ye it s working js');
   function openModal() {
     document.getElementById('myModal').style.display = "block";
   }
