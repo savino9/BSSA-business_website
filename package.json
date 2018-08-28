@@ -9,7 +9,8 @@
     "node": "^10.8.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.24.7",
+    "express": "^4.16.3",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
@@ -17,9 +18,9 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
     "jshint": "^2.9.6",
+    "lightslider": "^1.1.6",
     "lodash": "^4.17.10",
-    "popper.js": "^1.14.4",
-    "swiper": "^4.3.5"
+    "popper.js": "^1.14.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

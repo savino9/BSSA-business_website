@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- cdn icon goole material -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./src/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/product.css">
+    <link rel="stylesheet" href="./src/css/single-product.css">
+    <link type="text/css" rel="stylesheet" href="./src/css/lightslider.css" />
+    <title>We sell shoes</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="site-header sticky-top py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="home.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+  			<!-- Product picture carousel -->
+        <div class="col-xs-12 col-md-6 item-photo">
+          <!-- The expanding image container -->
+          <ul id="imageGallery">
+            <li data-thumb="./src/img/nikeairmag.jpg" data-src="img/largeImage.jpg">
+              <img src="./src/img/nikeairmag.jpg" />
+            </li>
+            <li data-thumb="./src/img/jordan3.jpg" data-src="img/largeImage1.jpg">
+              <img src="./src/img/jordan3.jpg" />
+            </li>
+          </ul>
+        </div>
+
+        <!----- Product details ------>
+        <div class="col-xs-12 col-md-5 pt-5" style="border:1px solid #8080800f">
+          <!-- Data of the product Title and seller -->
+          <h3>Nike Air</h3>    
+          <h5 style="color:#337ab7">sell by<a href="#"> Nike</a> · <small style="color:#337ab7">(4 left)</small></h5>
+          <!-- Price -->
+          <h6 class="title-price"><small>PRICE</small></h6>
+          <h3 style="margin-top:0px;">U$ 2950</h3>
+          <hr>
+          <!-- Specific detail of the product -->
+          <div class="section">
+            <h6 class="title-attr" style="margin-top:15px;" ><small>COLOR</small></h6>                    
+            <div>
+              <div class="attr" style="width:25px;background:#5a5a5a;"></div>
+              <div class="attr" style="width:25px;background:white;"></div>
+            </div>
+          </div>
+          <!-- Size -->
+          <div class="section" style="padding-bottom:5px;">
+            <h6 class="title-attr"><small>SIZE</small></h6>                    
+            <div>
+              <div class="attr2">39 </div>
+              <div class="attr2">40 </div>
+              <div class="attr2">41 </div>
+              <div class="attr2">42 </div>
+            </div>
+          </div>  
+          <!-- Quantity -->
+          <div class="section" style="padding-bottom:20px;">
+            <hr>
+            <h6 class="title-attr"><small>Quantity</small></h6>                    
+            <div class="pt-3">
+              <div class="btn-minus"><i class="material-icons">remove</i></div>
+              <input value="1"/>
+              <div class="btn-plus"><i class="material-icons">add</i></div>
+            </div>
+          </div>  
+          <!-- Basic Form  -->
+          <div class="basic-form section">
+            <hr>
+            <form class="needs-validation" novalidate>
+
+              <div class="form-row">
+
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltip01">First name</label>
+                  <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+                  <div class="valid-tooltip">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltip02">Last name</label>
+                  <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+                  <div class="valid-tooltip">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltipUsername">Username</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                    <div class="invalid-tooltip">
+                      Please choose a unique and valid username.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationTooltip03">City</label>
+                  <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationTooltip04">State</label>
+                  <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationTooltip05">Zip</label>
+                  <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+              </div>
+            </form>
+            <hr>
+          </div>
+          <!-- Section Buy buttons -->
+          <div class="section" style="padding-bottom:20px;">
+            <button id="buy-btn" type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
+              <span class="mb-3">add into cart</span><i class="material-icons" style="float: right;">shopping_cart</i>
+            </button>
+            <hr>
+            <h6><a href="#"><span class="glyphicon glyphicon-heart-empty" style="cursor:pointer;"></span> Add shopping list</a></h6>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Yeeeeeeee!!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Congratulation! 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <!-- ----------------------- -->   
+    <!----- Items details ---------->
+    <div class="row">
+      <div class="fluid-container border mt-3 mb-3">
+        <div class="p-5">
+          <div class="row">
+            <!-- Menu Paragraph -->
+            <div class="col-xs-12 col-md-12">
+              <div class="list-group list-group-flush" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Detail 1</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Detail 2</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Detail 3</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Detail 4</a>
+              </div>
+            </div>
+          </div>
+          <!-- Paragraph -->
+          <div class="row">
+            <div class="col-xs-12 col-md-12 pt-5 pb-5">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit deserunt delectus voluptatum perferendis eos ullam a aliquam numquam repellat laboriosam consequuntur, placeat dolore facilis velit omnis corrupti iste est architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam officiis tempore commodi dignissimos ad, eius laudantium ullam laborum! Incidunt aspernatur non quisquam beatae tenetur ex temporibus sint, ad minima vel.</div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, porro, iure iste consequuntur laboriosam, distinctio illo reiciendis blanditiis veritatis doloribus maiores rem modi facere dolores voluptatum beatae? Iure, molestias, distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consectetur blanditiis id, provident rem quam necessitatibus. Quos reiciendis, sit distinctio minus repellat doloremque dolores, velit ad dignissimos et dolore alias.</div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugit voluptates atque deserunt ratione est assumenda dolore qui unde, officia, nesciunt illum beatae! Dolore labore adipisci dignissimos non perspiciatis, expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi illo commodi nesciunt recusandae, eos autem atque id debitis omnis beatae, velit sit? Cumque illum quibusdam quos, iure provident consectetur?</div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum qui soluta repellat necessitatibus explicabo nulla officiis quasi iusto! Excepturi officiis temporibus enim repellendus, harum fuga accusamus libero deserunt dolores doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt dolores excepturi impedit officiis aspernatur quos nobis cumque adipisci sint. Consectetur dignissimos aperiam, harum numquam aut exercitationem possimus illo natus unde.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video -->
+    <div class="row">     
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/guCMp3-UVD0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>              
+        </div>          
+    </div>
+    
+    </div>  <!-- ////container-fluid -->
+    <!------------------------------------>	
+    
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../src/js/main.js"></script>
+    <script src="../src/js/lightslider.js"></script>
+  </body>
+</html>
