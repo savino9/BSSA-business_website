@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-	alert("js working");
+	// alert("js working");
   //  video background
 	var vid = document.getElementById('video');
 
