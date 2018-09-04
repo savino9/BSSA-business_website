@@ -92,7 +92,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
   background-color: black;
 }
 
@@ -103,7 +103,7 @@ body {
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 /* The Close Button */
@@ -125,6 +125,8 @@ body {
 
 .mySlides {
   display: none;
+  width: 100%;
+  text-align: center;
 }
 
 .cursor {
