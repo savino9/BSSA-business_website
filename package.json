@@ -19,7 +19,7 @@
     "gulp-uglify": "^3.0.1",
     "jshint": "^2.9.6",
     "lightslider": "^1.1.6",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "popper.js": "^1.14.4"
   },
   "scripts": {
